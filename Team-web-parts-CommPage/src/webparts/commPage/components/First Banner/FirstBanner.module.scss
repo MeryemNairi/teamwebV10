@@ -1,0 +1,34 @@
+.FirstBanner_container{
+    width: 100%;
+    height: 550px;
+    position: relative;
+    overflow: hidden;
+}
+.FB_background{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color:#002920;
+}
+.FB_Motif{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.FB_Illustration{
+    position: absolute;
+    top: 18%;
+    left: 0;
+    z-index: 2;
+}
+
+.FB_Logo{
+    position: absolute;
+    top: 35%;
+    left: 18%;
+    z-index: 3;
+}

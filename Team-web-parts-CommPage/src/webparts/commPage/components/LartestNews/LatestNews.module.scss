@@ -1,0 +1,224 @@
+.LatestNews{
+    width: 100%;
+    height: 550px;
+    position: relative;
+    overflow: hidden;
+    background-color: #58C1A3;
+}
+
+
+.LatestNews_container{
+    width: 100%;
+    height: auto;
+    padding: 3rem 0 3rem 3rem ;
+   
+    display: grid;
+    grid-template-columns: 600px 1fr;
+    grid-gap: 2rem;
+}
+.LN_left{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.video_container{
+    width: 600px;
+    height: 390px;
+    background-color:#002920;
+    position: relative;
+    border-radius: .5rem;
+    overflow: hidden;
+}
+.video_holder{
+    width: 600px;
+    height: 390px;
+    position: relative;
+}
+.PlayBtn{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+.BTN_CIRCLE{
+    border-radius: 50%;
+    width: 115px;
+    height: 115px;
+    background-color:#58C1A3 ;
+    opacity: 0.5;
+    position: relative;
+}
+.PlayIcon{
+    position: absolute; 
+    transition: .2s ease;
+    .Play{
+        text-decoration: none;
+        border: none;
+        background: transparent;
+      
+        cursor: pointer;
+    }  
+}
+.PlayIcon:hover{
+    scale: 1.1;
+}
+
+
+
+.LN_right{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    gap: 2rem;
+}
+.LN_title{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    .LN_text{
+        font-size: 30px;
+        font-weight: 700;
+    }
+}
+.LN_icon{
+    width: auto;
+}
+
+.LN_Cards{
+    width: 100%;
+    height: auto;
+    position: relative;
+    
+    scrollbar-width: none;
+    overflow-x: scroll;
+
+    
+}
+.cards_container{
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    
+    align-content: space-between;
+    
+    
+}
+
+.card{
+    width: 305px;
+    min-height: 305px;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    padding: .75rem;
+    border-radius: .5rem;
+    background-color: #DFF9F1;
+    gap: .5rem;
+    
+    justify-content: space-between;
+}
+.C_top{
+    color: #03B586;
+    font-size: 11.5px;
+    font-weight: 700;
+}
+.C_content{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    
+    .CC_title{
+        font-size: 15.35px;
+        font-weight: 600;
+    }
+    .CC_date{
+        font-size: 9.59px;
+        color: #AAAAAA;
+    }
+    .CC_Content{
+        font-size: 11.5px;
+        font-weight: 400;
+        overflow-y: auto;
+        height: 90px;
+    }
+}
+
+.card_button{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.CB_link{
+    text-decoration: none;
+    border: none;
+   width: 60px;
+   height: 25px;
+   border-radius: 4px;
+   background-color: #FFEED5; 
+   display: flex;
+   flex-direction: row;
+   gap: 4px; 
+   padding: 5px;
+    cursor: pointer;
+   justify-content: center;
+   align-items: center;
+   p{
+        font-size: 12px;
+        font-weight: 400;
+        color: #FFB546;
+
+   }
+}
+.CB_reactions{
+    width: auto;
+   height: 25px;
+   border-radius: 4px;
+   background-color: #9FDACD; 
+   display: flex;
+   flex-direction: row;
+   gap: 4px; 
+   padding: 5px;
+
+   justify-content: center;
+   align-items: center;
+}
+
+
+.CB_reactions_BTN{
+    background-color: transparent;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.CommentPart{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    transition: .2s ease;
+
+}
+.CommentPart_btn{
+    background-color: #03B586;
+    border: none;
+    text-decoration: none;
+    color: white;
+    border-radius: .5rem;
+    width: fit-content;
+    padding: .3rem;
+    transition: .2s ease;
+}
+.CommentPart_btn:hover{
+    background-color: #002920;
+}

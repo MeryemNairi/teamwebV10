@@ -1,0 +1,26 @@
+.formContainer{
+  
+  width: fit-content;
+}
+.button{
+  margin: auto;
+  display: flex;
+  background-color: transparent;
+  text-decoration: none;
+  border: none;
+}
+.button_holder{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  svg{
+    font-size: 25px;
+  }
+  span{
+    display: flex;
+    color: white;
+    font-size: 10px;
+    font-weight: 400;
+  }
+}
+

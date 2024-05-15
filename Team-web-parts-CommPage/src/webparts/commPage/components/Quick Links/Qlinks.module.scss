@@ -1,0 +1,201 @@
+/* Qlinks.module.css */
+.FinalePart {
+    /* Your styles for FinalePart */    
+    width: 100%;
+    min-height: 530px;
+    max-height: 650px;
+    height: auto;
+    background-color: #58C1A3;
+    padding: 3rem;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    
+}
+
+.FP_left {
+   width: 60%;
+
+}
+.ImageContainer{
+    max-width: 1025px;
+    width: 100%;
+    height: 475px;
+    background-color: #000000;
+    border-radius: .5rem;
+    position: relative;
+    overflow: hidden;
+}
+.image_holder{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.image_holder img{
+    width: 100%; /* Set the image width to fill the container */
+    height: 100%; /* Set the image height to fill the container */
+    object-fit: cover;  
+}
+.Navigation_btn{
+    position: absolute;
+    width: 95%;
+    
+    top: 45%;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+
+}
+
+.prevBtn ,.nextBtn{
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    height: auto;
+    width: auto;
+    background-color: transparent;
+    transition: .2s ease;
+}
+.prevBtn:hover{
+    scale: 1.2;
+}
+.nextBtn:hover{
+    scale: 1.2;
+}
+.FP_right {
+    /* Your styles for FP_right */
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: relative;
+
+}
+
+.QL_title {
+    /* Your styles for QL_title */
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    width: 100%;
+    align-items: center;
+    p{
+        font-size: 30px;
+        font-weight: 700;
+        color: white;
+    }
+}
+
+.Ql_container {
+    /* Your styles for Ql_container */
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    flex-direction: row;
+    gap: 1rem;
+    overflow: hidden;
+}
+
+.QL_first {
+    /* Your styles for QL_first */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: .5rem;
+}
+
+.QL_second {
+    /* Your styles for QL_second */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: .5rem;
+}
+
+.BTN {
+    /* Your styles for BTN */
+     width: 110px;
+     height: 110px;
+    
+      padding: .5rem;
+      
+      display: flex;
+      gap: 1rem;
+      flex-direction: row;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+      font-size: 12px;
+      font-weight: 500;
+      border: 3px solid #000000;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      transition: .3s ease;
+
+}
+.BTN:hover{
+    scale: .9;
+}
+.BTN.N1{
+    color: white;
+    background-color: #2C7562;
+    border-radius: 100% 100% 10% 100%;
+    transition: .3s ease;
+}
+.BTN.N1:hover{
+    color: white;
+    background-color: #002920;
+}
+.BTN.N2:hover{
+    color: #000000;
+    background-color: #FEC46D;
+}
+.BTN.N2{
+    color: white;
+    background-color: #ABC388;
+    border-radius: 100% 100%  100% 10%;
+}
+.BTN.N3{
+    color: white;
+    background-color: #7ABCC1;
+    border-radius: 100% 10% 100%  100%;
+}
+.BTN.N3:hover{
+    color: #000000;
+    background-color: #9BB7E0;
+}
+.BTN.N4:hover{
+    color: white;
+    background-color: #00966C;
+}
+.BTN.N4{
+    color: white;
+    background-color: #2CAB87;
+    
+    border-radius: 10%  100% 100% 100%;
+}
+
+.BTN.N5{
+    color: white;
+    background-color: #2C7562;
+    border-radius: 100% 100% 10% 100%;
+}
+.BTN.N6{
+    color: white;
+    background-color: #ABC388;
+    border-radius: 100% 100%  100% 10%;
+}
+.BTN.N7{
+    color: white;
+    background-color: #7ABCC1;
+    border-radius: 100% 10% 100%  100%;
+}
+.BTN.N8{
+    color: white;
+    background-color: #2CAB87;
+    
+    border-radius: 10%  100% 100% 100%;
+}

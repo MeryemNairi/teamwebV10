@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "comm-page-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/commPage/CommPageWebPart.js",
+          "manifest": "./src/webparts/commPage/CommPageWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CommPageWebPartStrings": "lib/webparts/commPage/loc/{locale}.js"
+  }
+}

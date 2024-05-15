@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "comm-page-client-side-solution",
+    "id": "8ee44640-059c-43a1-aba3-2d85e39a055d",
+    "version": "2.0.0.2",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "CommPage description"
+      },
+      "longDescription": {
+        "default": "CommPage description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "comm-page Feature",
+        "description": "The feature that activates elements of the comm-page solution.",
+        "id": "a2046c12-b709-49ec-8e60-ff36fae3c3ff",
+        "version": "2.0.0.2"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/comm-page.sppkg"
+  }
+}
