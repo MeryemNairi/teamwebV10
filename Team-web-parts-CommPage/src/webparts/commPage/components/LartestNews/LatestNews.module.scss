@@ -222,3 +222,157 @@
 .CommentPart_btn:hover{
     background-color: #002920;
 }
+
+
+
+
+
+
+
+
+.newsNews {
+    color: blue; // Couleur du texte pour ressembler à un lien
+    cursor: pointer; // Curseur qui change en pointeur au survol
+  
+    // Effet de soulignement lors du survol
+    text-decoration: none;
+    transition: color 0.3s ease-in-out, border-bottom-color 0.3s ease-in-out;
+  
+    &:hover {
+      color: darkblue; // Couleur du texte au survol
+      border-bottom-color: darkblue; // Couleur du soulignement au survol
+    }
+  }
+  
+  .messagingContainer {
+    position: relative;
+  }
+  
+  .commentInputContainer {
+    margin-bottom: 10px; /* Ajout d'une marge en bas */
+  }
+  
+  .messagingContainer {
+    position: relative;
+  }
+  
+  .toggleButton {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    z-index: 1;
+  }
+  
+  .sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+    overflow-y: auto; /* Permet le défilement vertical */
+  }
+  
+  
+  .sidebar.open {
+    transform: translateX(0);
+  }
+  
+  .sidebarTitle {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .card {
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card {
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .addCommentSection {
+    text-decoration: underline;
+    text-underline-position: under;
+    cursor: pointer;
+  }
+  
+  
+  .commentInput {
+    width: 89%; 
+    height: 60px 
+  }
+  
+  
+   
+    
+    .commentButton  {
+      cursor: pointer;
+    }
+  
+  
+  
+  
+  .container {
+    margin-top: 5rem; 
+    background-color: rgb(223,249,241);
+    height: 100vh; 
+    padding-left: 20px; 
+  }
+  
+  
+  
+  .row {
+   
+    align-items: left; 
+   
+  }
+  
+  .card {
+    margin: 0 auto 1.5rem auto; 
+    border: none; 
+    box-shadow: 5px 6px 6px 2px #e9ecef; 
+    border-radius: 4px; 
+  }
+  
+  .user {
+    display: flex;
+    align-items: center; 
+  }
+  
+  
+  .userName {
+    font-weight: bold; 
+    color: #030c16; 
+  }
+  
+  
+  .commentText {
+    color: #504e4e;
+    font-size: 16px;
+    font-style: italic; 
+  }
+  
+  .commentDate {
+    font-size: 12px; 
+    font-style: italic;
+    color: #8d8d8d; 
+  }
+  
+  
+  .colon {
+    font-weight: bold; 
+  }  
